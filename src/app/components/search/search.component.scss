@@ -1,0 +1,17 @@
+:host {
+  display: flex;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+  padding: 10px;
+
+  input {
+    width: 100%;
+    outline: none;
+    background-color: rgb(245, 245, 245);
+    border: none;
+
+    &::placeholder {
+      padding-left: 10px;
+    }
+  }
+}
